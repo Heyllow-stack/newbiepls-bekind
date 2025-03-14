@@ -1,0 +1,134 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-image: url(netflix\ background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        position: relative;
+      }
+      body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: -1;
+      }
+      .header {
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.4);
+        fill: currentColor;
+        height: 80px;
+        color: white;
+        border-radius: 8px;
+      }
+      .Contact,
+      .About,
+      .News {
+        font-size: 25px;
+        cursor: pointer;
+        position: absolute;
+        top: 30px;
+        color: white;
+      }
+      .About {
+        left: 1000px;
+      }
+      .News {
+        left: 1200px;
+      }
+      .Contact {
+        left: 1400px;
+      }
+      .About:hover,
+      .News:hover,
+      .Contact:hover {
+        color: red;
+      }
+      .Mytitle {
+        color: white;
+        font-size: 100px;
+        position: absolute;
+        left: 930px;
+        top: 50px;
+      }
+      .myFirsth1 {
+        color: white;
+        position: absolute;
+        left: 940px;
+        top: 350px;
+        font-size: 25px;
+      }
+      .Welcome {
+        color: white;
+      }
+      .BallBallTV {
+        color: rgb(229, 9, 20);
+        fill: currentColor;
+      }
+      .to {
+        color: white;
+      }
+      .pic1,
+      .pic2,
+      .pic3,
+      .pic4 {
+        position: absolute;
+        width: 150px;
+        left: 80px;
+        top: 300px;
+        border-radius: 5px;
+      }
+      .pic1 {
+        left: 590px;
+      }
+      .pic2 {
+        left: 420px;
+      }
+      .pic3 {
+        left: 250px;
+      }
+      .pic1:hover,
+      .pic2:hover,
+      .pic3:hover,
+      .pic4:hover {
+        border: 3px solid white;
+      }
+      .Trending {
+        position: absolute;
+        left: 100px;
+        color: white;
+        font-size: 25px;
+        top: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="header">
+      <span class="Contact">Contact</span>
+      <span class="About">About</span>
+      <span class="News">News</span>
+    </nav>
+    <h1 class="Mytitle">
+      <span class="Welcome">Welcome</span> <span class="to">to</span> <br />
+      <span class="BallBallTV">BallBallTV</span>
+    </h1>
+    <h1 class="myFirsth1">
+      Free Movie To Watch, Anytime Anywhere,<br />
+      Watch Movie anytime, when you feel bored<br />
+      or if you feel tired.<br />
+      So sit and relax, and watch a movie.
+    </h1>
+    <h1 class="Trending">Trending Now!</h1>
+    <img src="A.webp" alt="" class="pic1" />
+    <img src="AA.webp" alt="" class="pic2" />
+    <img src="AAA.webp" alt="" class="pic3" />
+    <img src="BB.webp" alt="" class="pic4" />
+  </body>
+</html>
